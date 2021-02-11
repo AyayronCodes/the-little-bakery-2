@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Bakery - Intersection Observer Practice</title>
+</head>
+<body class="before-load">
+  <div class="loading-page">
+    <span>Loading...</span>
+  </div>
+  <section class="section intro-section" style="background: url('images/header_bg.jpg') center center / cover;">
+    <h1 class="main-title">
+      <span>T</span><span>h</span><span>e</span><span><br></span><span>L</span><span>i</span><span>t</span><span>t</span><span>l</span><span>e</span><span><br></span><span>B</span><span>a</span><span>k</span><span>e</span><span>r</span><span>y</span>
+    </h1>
+    <div class="scroll">
+      <span>Scroll</span>
+      <div class="scroll-sign"></div>
+    </div>
+  </section>
+  <section class="section about-section">
+    <div class="container description-container">
+      <h2 class="title opacity-in rotate-in">A little history about us</h2>
+      <p class="description opacity-in translate-in translate-up">
+        <span class="year">since 2015</span>
+        <strong>The Little Bakery</strong> started out very little at a little town called Lilville, located at the heart of Atlanta. Our founder, Pequeno Little, put in years of hard work to come up with the perfect dough recipe that satisfied Atlantans and people all across America.
+      </p>
+      <p class="description opacity-in translate-in translate-up">
+        Now, we ship our freshly baked bread all around the globe. In short, we turned into a multi-million dollar frozen food company. Not so little now eh? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eos ratione. Omnis error ab porro? Id, iusto? Maxime perspiciatis expedita consequatur nam aliquam perferendis ea non, ipsum ad iure aut, debitis assumenda dolor repudiandae est, delectus pariatur repellendus excepturi.
+      </p>
+    </div>
+    <div class="container bakers-container">
+      <h2 class="title opacity-in rotate-in">Meet our bakers</h2>
+      <div class="baker opacity-in">
+        <img src="images/baker_1.jpg" alt="first baker" class="baker-image">
+        <div class="baker-info translate-in translate-left">
+          <span class="baker-name">Petr Peterson</span>
+          <p class="baker-description">
+            Maybe you could tell by his name but Petr is from Moscow. He came across the Atlantic just to shed some light on Atlanta's culinary scene, which clearly lacks its variety of delicacies compared to those of big cities like New York and Los Angeles. Come on Atlanta, please step up your game. And the fact that you guys traded Doncic for Trae Young really is something else... in a bad way (Just kidding, Trae Young is the man! Definitely would buy his jersey if it's not so overpriced).
+          </p>
+        </div>
+      </div>
+      <div class="baker opacity-in">
+        <img src="images/baker_2.jpg" alt="second baker" class="baker-image">
+        <div class="baker-info translate-in translate-right">
+          <span class="baker-name">Anne Annonson</span>
+          <p class="baker-description">
+            Anne is also from abroad. Yes, she also came from the opposite side of the Atlantic all the way from fabulous Paris, France. Why is she here in Hotlanta instead? We have no clue at all. Rumor has it that she did something very illegal back in French capital... But the most important thing is that she is a baking genius, or 
+            génie de la pâtisserie in French. Everything sounds more 'buttery' in French.
+          </p>
+        </div>
+      </div>
+      <div class="baker opacity-in">
+        <img src="images/baker_3.jpg" alt="third baker" class="baker-image">
+        <div class="baker-info translate-in translate-left">
+          <span class="baker-name">Julian Johnson</span>
+          <p class="baker-description">
+            Ok, I ran out of ideas for these descriptions man... I should definitely just use lorem texts instead. Oh and by the way, all the images are just random images from Unsplash. (Thank you Unsplash!) Web design feels so much more difficult than coding... Or maybe that's just me cuz I clearly lack artistic talent. My apologies Julian for such a carelessly written description. Well, you don't exist anyway 'dough' (I mean, not the actual guy on the photo. That guy clearly exists somewhere on this planet).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section menu-section">
+    <h2 class="title opacity-in">Take a peek at our goodies!</h2>
+    <div class="container menu-container">
+      <div class="menu-item opacity-in translate-in translate-right">
+        <img src="images/grid_bread_display.jpg" alt="bread display" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Breads</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-up">
+        <img src="images/grid_cake.jpg" alt="cakes" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Cakes</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-left">
+        <img src="images/grid_eclairs.jpg" alt="eclairs" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Eclairs</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-right">
+        <img src="images/grid_cinnamon_buns.jpg" alt="cinnamon buns" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Buns</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-left">
+        <img src="images/grid_macarons.jpg" alt="macarons" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Macarons</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-right">
+        <img src="images/grid_pastries.jpg" alt="pastries" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Pastries</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-up">
+        <img src="images/grid_donuts.jpg" alt="donuts" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Donuts</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-left">
+        <img src="images/grid_tarts.jpg" alt="tarts" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Tarts</span>
+        </div>
+      </div>
+      <div class="menu-item opacity-in translate-in translate-up">
+        <img src="images/grid_croissants.jpg" alt="croissants" class="menu-image">
+        <div class="menu-description">
+          <span class="menu-name">Croissants</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span class="footer-description">Made by AyayronCodes, Feb. 2021</span>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
